@@ -9,11 +9,11 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/RAM50558/jenkins-kubernetes-deployment.git'
-      }
-    }
+   // stage('Checkout Source') {
+      //steps {
+        //git 'https://github.com/RAM50558/jenkins-kubernetes-deployment.git'
+      //}
+    //}
 
     stage('Build image') {
       steps{
